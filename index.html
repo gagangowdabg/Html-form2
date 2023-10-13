@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form-2</title>
+    <style>
+        a{
+            border: 2px solid black;
+            text-decoration: none;
+            color: red;
+            border-radius: 10px;
+        }
+        a:hover{
+            background-color: black;
+        }
+        form{
+            text-align: center;
+            color: black ;
+        }
+        h1{
+            text-align: center;
+            size: 100px;
+        }
+    </style>
+</head>
+<body background="background.jpg">
+    <h1>FORM</h1>
+    <br>
+    <form action="">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="First Name">First Name</label>
+        <input type="text" required placeholder="Gagan" name="First Name" id="First Name"><br><br>
+
+        <label for="Middle Name">Middle Name</label>
+        <input type="text" required placeholder="Bilagunda" name="Middle Name" id="Middle Name"><br><br>
+
+        <label for="Last Name">Last Name</label>
+        <input type="text" required placeholder="Gangesh" name="Last Name" id="Last Name"><br><br>
+
+        <label for="DOB">DOB</label>
+        <input type="date" required name="DOB" id="DOB"><br><br>
+
+        <label for="Email">Email</label>
+        <input type="text" required placeholder="xyz@gmail.com" name="Email" id="Email"><br><br>
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend>Educational Details</legend>
+
+        <label for="Department">Department</label>
+        <input type="radio" id="CSE" name="dept">
+        <label for="CSE">CSE</label>
+
+        <input type="radio" id="ISE" name="dept">
+        <label for="ISE">ISE</label>
+
+        <input type="radio" id="mech" name="dept">
+        <label for="mech">mech</label>
+
+        <input type="radio" id="ec" name="dept">
+        <label for="ec">ec</label>
+
+        <input type="radio" id="civil" name="dept">
+        <label for="civil">civil</label><br><br>
+
+        <label for="YOP">YOP</label>
+        <input list="YOG" name="YOP" id="YOP">
+
+        <datalist id="YOG">
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </datalist>
+
+        <br><br>
+
+        <label for="Skills">Skills</label>
+        <input type="checkbox" id="CSS" name="CSS">
+        <label for="CSS">CSS</label>
+
+        <input type="checkbox" id="HTML" name="HTML">
+        <label for="HTML">HTML</label>
+
+        <input type="checkbox" id="JS" name="JS">
+        <label for="JS">JS</label>
+
+    </fieldset>
+    <br>
+    <a href="message.html"> submit </a>
+    </form>
+    
+    
+</body>
+</html
